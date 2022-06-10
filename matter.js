@@ -192,8 +192,6 @@ var Axes = _dereq_('../geometry/Axes');
         body.render.sprite.yOffset += -(body.bounds.min.y - body.position.y) / (body.bounds.max.y - body.bounds.min.y);
     };
 
-
-    Matter.bodies.circle(x,y, radius, ball_options)
     /**
      * Given a property and a value (or map of), sets the property(s) on the body, using the appropriate setter functions if they exist.
      * Prefer to use the actual setter functions in performance critical situations.
